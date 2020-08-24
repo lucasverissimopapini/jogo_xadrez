@@ -6,4 +6,16 @@
     <RootNamespace>xadrez_console</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="tabuleiro\Posicao.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="tabuleiro\Peca.cs~RFf6ff412.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="tabuleiro\Posicao.cs" />
+  </ItemGroup>
+
 </Project>

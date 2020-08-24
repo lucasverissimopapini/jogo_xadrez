@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Reflection.Metadata.Ecma335;
-using System.Text;
+﻿using tabuleiro;
 
 namespace tabuleiro
 {
@@ -9,6 +6,11 @@ namespace tabuleiro
     {
         public int linha { get; set; }
         public int coluna { get; set; }
+
+        public Posicao()
+        {
+
+        }
 
         public Posicao(int linha, int coluna)
         {
@@ -18,7 +20,7 @@ namespace tabuleiro
 
         public override string ToString()
         {
-            return linha +", " + coluna;
+            return linha + ", " + coluna;
         }
     }
 }
