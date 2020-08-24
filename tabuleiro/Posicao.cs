@@ -9,7 +9,6 @@ namespace tabuleiro
 
         public Posicao()
         {
-
         }
 
         public Posicao(int linha, int coluna)
