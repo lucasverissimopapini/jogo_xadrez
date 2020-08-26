@@ -1,4 +1,5 @@
 ﻿using System.IO.Compression;
+using tabuleiro;
 using xadrez_console.tabuleiro;
 
 namespace tabuleiro
